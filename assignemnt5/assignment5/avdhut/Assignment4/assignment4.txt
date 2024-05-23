@@ -1,0 +1,71 @@
+i)
+characters
+
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ wc data.txt -m
+145 data.txt
+
+words
+
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ wc data.txt -w
+25 data.txt
+
+lines
+
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ wc data.txt -l
+6 data.txt
+
+ii)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ grep "files" data.txt
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files
+
+iii)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ grep "file" data.txt
+In Linux everything is file
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files
+
+iv)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ grep -v "files" data.txt
+LInux is open source.
+In Linux everything is file
+
+v)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ grep "have" data.txt
+files have permissions.
+files have inode no.
+files have size.
+
+vi)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ grep "^f" data.txt
+files have permissions.
+files have inode no.
+files have size.
+
+vii)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ grep "\.$" data.txt
+LInux is open source.
+files have permissions.
+files have inode no.
+files have size.
+
+viii)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ head -n 2 data.txt
+LInux is open source.
+In Linux everything is file
+
+ix)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ tail -n 3 data.txt
+files have inode no.
+files have size.
+there are several types of files
+
+x)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment4$ head -n 5 data.txt | tail -n 3
+files have permissions.
+files have inode no.
+files have size.
