@@ -1,0 +1,205 @@
+Q1)
+sunbeam@sunbeam-Modern-14-B5M:~$ ls -lt -r
+total 84
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  5 01:56  Videos
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  5 01:56  Templates
+drwxr-xr-x  3 sunbeam sunbeam 4096 Mar  7 15:52  Pictures
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar 13 03:38  Music
+drwx------  6 sunbeam sunbeam 4096 Mar 18 17:36  snap
+drwxr-xr-x  2 sunbeam sunbeam 4096 Mar 20 22:28  Public
+-rw-rw-r--  1 sunbeam sunbeam  191 Mar 26 20:58 'Github Tokens'
+drwxrwxr-x  3 sunbeam sunbeam 4096 Apr  4 22:32  STS4
+drwxrwxr-x  4 sunbeam sunbeam 4096 Apr  8 22:36  Print
+drwxrwxr-x  5 sunbeam sunbeam 4096 Apr  8 22:46 'Sham Data'
+drwxr-xr-x  2 sunbeam sunbeam 4096 Apr 12 18:46  Documents
+drwxrwxr-x  7 sunbeam sunbeam 4096 Apr 18 00:03  Transfer
+drwxrwxr-x  4 sunbeam sunbeam 4096 Apr 20 11:51  Exam
+drwxrwxr-x  8 sunbeam sunbeam 4096 Apr 20 11:51  Day15
+drwxrwxr-x  4 sunbeam sunbeam 4096 Apr 20 16:13  Hackathon
+drwxrwxr-x 23 sunbeam sunbeam 4096 Apr 25 23:16  Java
+-rw-rw-r--  1 sunbeam sunbeam  243 Apr 25 23:30  Password
+drwxr-xr-x  6 sunbeam sunbeam 4096 May  5 00:03  Downloads
+drwxr-xr-x  2 sunbeam sunbeam 4096 May  5 05:26  Desktop
+drwxrwxr-x  6 sunbeam sunbeam 4096 May 20 17:22  Sunbeam-Git-Data
+drwxrwxr-x  6 sunbeam sunbeam 4096 May 20 17:33  Avdhuy-Git-Data
+
+Q2)
+sunbeam@sunbeam-Modern-14-B5M:~$ ll -lt -s | sort -s
+  0 -rw-r--r--  1 sunbeam sunbeam      0 Mar  5 15:50 .sudo_as_admin_successful
+108 -rw-------  1 sunbeam sunbeam 107258 Apr 26 17:27 .mysql_history
+ 24 -rw-------  1 sunbeam sunbeam  20766 May 21 18:01 .bash_history
+  4 drwx------ 19 sunbeam sunbeam   4096 Apr 25 14:31 .config/
+  4 drwx------ 19 sunbeam sunbeam   4096 Apr 26 17:27 .cache/
+  4 drwx------  2 sunbeam sunbeam   4096 Apr 26 16:40 .gnupg/
+  4 drwx------  2 sunbeam sunbeam   4096 Mar  5 21:16 .ssh/
+  4 drwx------  3 sunbeam sunbeam   4096 Mar 15 14:13 .mozilla/
+  4 drwx------  3 sunbeam sunbeam   4096 Mar 15 15:41 .mongodb/
+  4 drwx------  3 sunbeam sunbeam   4096 Mar 18 17:36 .pki/
+  4 drwx------  3 sunbeam sunbeam   4096 Mar  5 01:56 .local/
+  4 drwx------  6 sunbeam sunbeam   4096 Mar 15 14:13 .thunderbird/
+  4 drwx------  6 sunbeam sunbeam   4096 Mar 18 17:36 snap/
+  4 drwxrwxr-x 23 sunbeam sunbeam   4096 Apr 25 23:16 Java/
+  4 drwxrwxr-x  2 sunbeam sunbeam   4096 Apr  1 15:22 .swt/
+  4 drwxrwxr-x  3 sunbeam sunbeam   4096 Apr  1 16:35 .eclipse/
+  4 drwxrwxr-x  3 sunbeam sunbeam   4096 Apr  1 16:36 .sts4/
+  4 drwxrwxr-x  3 sunbeam sunbeam   4096 Apr  4 22:32 STS4/
+  4 drwxrwxr-x  3 sunbeam sunbeam   4096 Mar 19 16:22 .dotnet/
+  4 drwxrwxr-x  4 sunbeam sunbeam   4096 Apr 20 11:51 Exam/
+  4 drwxrwxr-x  4 sunbeam sunbeam   4096 Apr 20 16:13 Hackathon/
+  4 drwxrwxr-x  4 sunbeam sunbeam   4096 Apr  8 22:36 Print/
+  4 drwxrwxr-x  4 sunbeam sunbeam   4096 Mar 18 17:36 .vscode/
+  4 drwxrwxr-x  5 sunbeam sunbeam   4096 Apr  8 22:46 Sham Data/
+  4 drwxrwxr-x  6 sunbeam sunbeam   4096 May 20 17:22 Sunbeam-Git-Data/
+  4 drwxrwxr-x  6 sunbeam sunbeam   4096 May 20 17:33 Avdhuy-Git-Data/
+  4 drwxrwxr-x  7 sunbeam sunbeam   4096 Apr 18 00:03 Transfer/
+  4 drwxrwxr-x  8 sunbeam sunbeam   4096 Apr 20 11:51 Day15/
+  4 drwxr-x--- 35 sunbeam sunbeam   4096 May 21 18:08 ./
+  4 drwxr-xr-x  2 sunbeam sunbeam   4096 Apr 12 18:46 Documents/
+  4 drwxr-xr-x  2 sunbeam sunbeam   4096 Mar 13 03:38 Music/
+  4 drwxr-xr-x  2 sunbeam sunbeam   4096 Mar 20 22:28 Public/
+  4 drwxr-xr-x  2 sunbeam sunbeam   4096 Mar  5 01:56 Templates/
+  4 drwxr-xr-x  2 sunbeam sunbeam   4096 Mar  5 01:56 Videos/
+  4 drwxr-xr-x  2 sunbeam sunbeam   4096 May  5 05:26 Desktop/
+  4 drwxr-xr-x  3 root    root      4096 Mar  4 20:20 ../
+  4 drwxr-xr-x  3 sunbeam sunbeam   4096 Mar  7 15:52 Pictures/
+  4 drwxr-xr-x  6 sunbeam sunbeam   4096 May  5 00:03 Downloads/
+  4 -rw-------  1 sunbeam sunbeam     20 May 21 18:08 .lesshst
+  4 -rw-r--r--  1 sunbeam sunbeam    220 Mar  4 20:20 .bash_logout
+  4 -rw-r--r--  1 sunbeam sunbeam   3797 Apr  2 14:30 .bashrc
+  4 -rw-r--r--  1 sunbeam sunbeam    807 Mar  4 20:20 .profile
+  4 -rw-rw-r--  1 sunbeam sunbeam    191 Mar 26 20:58 Github Tokens
+  4 -rw-rw-r--  1 sunbeam sunbeam     23 Mar  6 15:54 .my.cnf
+  4 -rw-rw-r--  1 sunbeam sunbeam    243 Apr 25 23:30 Password
+  8 -rw-------  1 sunbeam sunbeam   6991 Apr 18 00:11 .viminfo
+total 308
+
+Q3)
+sunbeam@sunbeam-Modern-14-B5M:~$ ls -lt -i
+total 84
+ 529613 drwxrwxr-x  6 sunbeam sunbeam 4096 May 20 17:33  Avdhuy-Git-Data
+ 930243 drwxrwxr-x  6 sunbeam sunbeam 4096 May 20 17:22  Sunbeam-Git-Data
+ 528530 drwxr-xr-x  2 sunbeam sunbeam 4096 May  5 05:26  Desktop
+ 528531 drwxr-xr-x  6 sunbeam sunbeam 4096 May  5 00:03  Downloads
+ 529578 -rw-rw-r--  1 sunbeam sunbeam  243 Apr 25 23:30  Password
+1187075 drwxrwxr-x 23 sunbeam sunbeam 4096 Apr 25 23:16  Java
+ 540335 drwxrwxr-x  4 sunbeam sunbeam 4096 Apr 20 16:13  Hackathon
+1322067 drwxrwxr-x  8 sunbeam sunbeam 4096 Apr 20 11:51  Day15
+ 538476 drwxrwxr-x  4 sunbeam sunbeam 4096 Apr 20 11:51  Exam
+1318893 drwxrwxr-x  7 sunbeam sunbeam 4096 Apr 18 00:03  Transfer
+ 528534 drwxr-xr-x  2 sunbeam sunbeam 4096 Apr 12 18:46  Documents
+ 534937 drwxrwxr-x  5 sunbeam sunbeam 4096 Apr  8 22:46 'Sham Data'
+ 540623 drwxrwxr-x  4 sunbeam sunbeam 4096 Apr  8 22:36  Print
+ 529878 drwxrwxr-x  3 sunbeam sunbeam 4096 Apr  4 22:32  STS4
+ 524923 -rw-rw-r--  1 sunbeam sunbeam  191 Mar 26 20:58 'Github Tokens'
+ 528533 drwxr-xr-x  2 sunbeam sunbeam 4096 Mar 20 22:28  Public
+ 524350 drwx------  6 sunbeam sunbeam 4096 Mar 18 17:36  snap
+ 528535 drwxr-xr-x  2 sunbeam sunbeam 4096 Mar 13 03:38  Music
+ 528536 drwxr-xr-x  3 sunbeam sunbeam 4096 Mar  7 15:52  Pictures
+ 528532 drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  5 01:56  Templates
+ 528537 drwxr-xr-x  2 sunbeam sunbeam 4096 Mar  5 01:56  Videos
+
+Q4)
+sunbeam@sunbeam-Modern-14-B5M:~$ ls Avdhuy-Git-Data
+CPP  DBT  Java-with-OOP  OSC_SDM
+
+Q5)
+sunbeam@sunbeam-Modern-14-B5M:~$ cat > myself.txt
+Surname : Pol
+Name : Avdhuy
+sunbeam@sunbeam-Modern-14-B5M:~$ cat  myself.txt
+Surname : Pol
+Name : Avdhuy
+
+Q5) - i,ii)
+
+sunbeam@sunbeam-Modern-14-B5M:~$ cat >> myself.txt
+Address : Karad
+sunbeam@sunbeam-Modern-14-B5M:~$ cat  myself.txt
+Surname : Bansode
+Name : Jay
+Address : Karad
+
+Q6)
+sunbeam@sunbeam-Modern-14-B5M:~$ touch -t 202401011230 myself.txt
+
+touch -t 202401011230 /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/3.txt
+
+
+Q7)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2$ mkdir one
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2$ cd one
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one$ touch 1.txt 11.txt 111.txt
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one$ mkdir two
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one$ cd two
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two$ touch 2.txt 22.txt 222.txt
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two$ mkdir three
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two$ cd three
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three$ touch 3.txt 33.txt 333.txt
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three$ mkdir four
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three$ cd four
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four$ touch 4.txt 44.txt 444.txt
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four$ mkdir five
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four$ cd five
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five$ cd ~
+
+Q8)i)
+sunbeam@sunbeam-Modern-14-B5M:~$ ls /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five
+555.txt  55.txt  5.txt
+
+Q8)ii)
+sunbeam@sunbeam-Modern-14-B5M:~$ cat >> /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/44.txt
+Name : Jay
+sunbeam@sunbeam-Modern-14-B5M:~$ cat /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/44.txt
+Name : Jay
+
+Q8)iii)
+sunbeam@sunbeam-Modern-14-B5M:~$ ls /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five
+555.txt  55.txt  5.txt
+sunbeam@sunbeam-Modern-14-B5M:~$ rm /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five/555.txt
+sunbeam@sunbeam-Modern-14-B5M:~$ ls /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five
+55.txt  5.txt
+sunbeam@sunbeam
+
+Q8)iv)
+sunbeam@sunbeam-Modern-14-B5M:~$ cd /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five
+
+Q8)v)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five$ cat >> /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/3.txt
+Course Name : PG-DAC         
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five$ cat /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/3.txt
+Course Name : PG-DAC
+
+Q8)vi)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five$ ls /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two
+222.txt  22.txt  2.txt  three
+
+Q8)vii)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five$ rm /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/222.txt
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five$ ls /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two
+22.txt  2.txt  three
+
+Q8)viii)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five$ cd /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one
+
+Q8)ix)
+rm /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five/*
+
+Q8)x)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one$ rm -r /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/five/
+
+Q8)xi)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one$ rm -r /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/four/
+
+Q8)xii)
+sunbeam@sunbeam-Modern-14-B5M:~/Avdhuy-Git-Data/OSC_SDM/Assignment2/one$ cd ~
+
+Q9)
+sunbeam@sunbeam-Modern-14-B5M:~$ touch -t 202401011230 /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three/3.txt
+
+sunbeam@sunbeam-Modern-14-B5M:~$ ls -lt /home/sunbeam/Avdhuy-Git-Data/OSC_SDM/Assignment2/one/two/three
+total 4
+-rw-rw-r-- 1 sunbeam sunbeam  0 May 21 18:37 333.txt
+-rw-rw-r-- 1 sunbeam sunbeam  0 May 21 18:37 33.txt
+-rw-rw-r-- 1 sunbeam sunbeam 21 Jan  1 12:30 3.txt
+
